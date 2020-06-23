@@ -2,9 +2,14 @@
 set nowritebackup
 set nobackup
 
-" soft tab
+" タブをスペースで展開
 set expandtab
+" タブをスペース何文字で表示するか
 set tabstop=4
+" 自動的にvimが挿入するインデントの幅
 set shiftwidth=4
+" タブキーを押したときに挿入されるスペースの数。0のときはtsが使われる。
+set softtabstop=0
 
+" 行番号を表示する
 set number
