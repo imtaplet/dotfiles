@@ -1,7 +1,6 @@
 " disable backups
 set nowritebackup
 set nobackup
-set noswap
 
 " タブをスペースで展開
 set expandtab
@@ -14,4 +13,3 @@ set softtabstop=0
 
 " 行番号を表示する
 set number
-
