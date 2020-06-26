@@ -1,0 +1,5 @@
+[user]
+	email = rockgajoen@gmail.com
+	name = imtaplet
+[core]
+	excludesfile = ~/.gitignore
