@@ -18,5 +18,6 @@ set number
 call plug#begin()
 
 Plug 'easymotion/vim-easymotion'
+nmap f <Plug>(easymotion-overwin-f)
 
 call plug#end()
