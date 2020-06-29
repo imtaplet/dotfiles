@@ -13,3 +13,10 @@ set softtabstop=0
 
 " 行番号を表示する
 set number
+
+" vim-plug
+call plug#begin()
+
+Plug 'easymotion/vim-easymotion'
+
+call plug#end()
