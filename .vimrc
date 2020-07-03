@@ -20,4 +20,6 @@ call plug#begin()
 Plug 'easymotion/vim-easymotion'
 nmap f <Plug>(easymotion-overwin-f)
 
+Plug 'elmcast/elm-vim'
+
 call plug#end()
