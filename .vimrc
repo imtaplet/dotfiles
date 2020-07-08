@@ -14,6 +14,11 @@ set softtabstop=0
 " 行番号を表示する
 set number
 
+" 折り返しをしない。
+set nowrap
+
+set ambiwidth=double
+
 " vim-plug
 call plug#begin()
 
@@ -21,5 +26,6 @@ Plug 'easymotion/vim-easymotion'
 nmap f <Plug>(easymotion-overwin-f)
 
 Plug 'elmcast/elm-vim'
+Plug 'tyru/skk.vim'
 
 call plug#end()
